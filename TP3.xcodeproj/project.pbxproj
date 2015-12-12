@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5751ECE61C11909F00190213 /* TestTapis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751ECE51C11909F00190213 /* TestTapis.swift */; };
+		577DB26C1C1220890077CBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DB26B1C1220890077CBFB /* Assets.xcassets */; };
+		577DB26E1C1223B90077CBFB /* shuffling-cards.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 577DB26D1C1223B90077CBFB /* shuffling-cards.mp3 */; };
+		57A6482D1BF9BF0300617388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6482C1BF9BF0300617388 /* AppDelegate.swift */; };
+		57A648321BF9BF0300617388 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A648301BF9BF0300617388 /* MainMenu.xib */; };
+		57A6483A1BF9C19300617388 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A648391BF9C19300617388 /* Carte.swift */; };
+		57A6483C1BF9C1E000617388 /* CarteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6483B1BF9C1E000617388 /* CarteView.swift */; };
+		57A6483F1BF9C8FD00617388 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6483D1BF9C8FD00617388 /* Joueur.swift */; };
+		57A648401BF9C8FD00617388 /* Paquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6483E1BF9C8FD00617388 /* Paquet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5751ECE51C11909F00190213 /* TestTapis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTapis.swift; sourceTree = "<group>"; };
+		577DB26B1C1220890077CBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577DB26D1C1223B90077CBFB /* shuffling-cards.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "shuffling-cards.mp3"; path = "../../../../../../Downloads/shuffling-cards.mp3"; sourceTree = "<group>"; };
+		57A648291BF9BF0300617388 /* TP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A6482C1BF9BF0300617388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57A648311BF9BF0300617388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		57A648331BF9BF0300617388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A648391BF9C19300617388 /* Carte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Carte.swift; path = ../../TP2/TP2/Carte.swift; sourceTree = "<group>"; };
+		57A6483B1BF9C1E000617388 /* CarteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarteView.swift; sourceTree = "<group>"; };
+		57A6483D1BF9C8FD00617388 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Joueur.swift; path = ../../TP2/TP2/Joueur.swift; sourceTree = "<group>"; };
+		57A6483E1BF9C8FD00617388 /* Paquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paquet.swift; path = ../../TP2/TP2/Paquet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A648261BF9BF0300617388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577DB26F1C1223BE0077CBFB /* M/C */ = {
+			isa = PBXGroup;
+			children = (
+				57A6482C1BF9BF0300617388 /* AppDelegate.swift */,
+				57A648391BF9C19300617388 /* Carte.swift */,
+				57A6483D1BF9C8FD00617388 /* Joueur.swift */,
+				57A6483E1BF9C8FD00617388 /* Paquet.swift */,
+				5751ECE51C11909F00190213 /* TestTapis.swift */,
+			);
+			name = M/C;
+			sourceTree = "<group>";
+		};
+		577DB2701C1223D30077CBFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				577DB26B1C1220890077CBFB /* Assets.xcassets */,
+				57A648301BF9BF0300617388 /* MainMenu.xib */,
+				57A6483B1BF9C1E000617388 /* CarteView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		57A648201BF9BF0200617388 = {
+			isa = PBXGroup;
+			children = (
+				57A6482B1BF9BF0300617388 /* TP3 */,
+				57A6482A1BF9BF0300617388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A6482A1BF9BF0300617388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A648291BF9BF0300617388 /* TP3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A6482B1BF9BF0300617388 /* TP3 */ = {
+			isa = PBXGroup;
+			children = (
+				577DB26F1C1223BE0077CBFB /* M/C */,
+				577DB2701C1223D30077CBFB /* View */,
+				57A648331BF9BF0300617388 /* Info.plist */,
+				577DB26D1C1223B90077CBFB /* shuffling-cards.mp3 */,
+			);
+			path = TP3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A648281BF9BF0300617388 /* TP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A648361BF9BF0300617388 /* Build configuration list for PBXNativeTarget "TP3" */;
+			buildPhases = (
+				57A648251BF9BF0300617388 /* Sources */,
+				57A648261BF9BF0300617388 /* Frameworks */,
+				57A648271BF9BF0300617388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TP3;
+			productName = TP3;
+			productReference = 57A648291BF9BF0300617388 /* TP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A648211BF9BF0200617388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "lpsil-dam";
+				TargetAttributes = {
+					57A648281BF9BF0300617388 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 57A648241BF9BF0200617388 /* Build configuration list for PBXProject "TP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A648201BF9BF0200617388;
+			productRefGroup = 57A6482A1BF9BF0300617388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A648281BF9BF0300617388 /* TP3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A648271BF9BF0300617388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DB26C1C1220890077CBFB /* Assets.xcassets in Resources */,
+				57A648321BF9BF0300617388 /* MainMenu.xib in Resources */,
+				577DB26E1C1223B90077CBFB /* shuffling-cards.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A648251BF9BF0300617388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A648401BF9C8FD00617388 /* Paquet.swift in Sources */,
+				5751ECE61C11909F00190213 /* TestTapis.swift in Sources */,
+				57A6482D1BF9BF0300617388 /* AppDelegate.swift in Sources */,
+				57A6483F1BF9C8FD00617388 /* Joueur.swift in Sources */,
+				57A6483A1BF9C19300617388 /* Carte.swift in Sources */,
+				57A6483C1BF9C1E000617388 /* CarteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57A648301BF9BF0300617388 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A648311BF9BF0300617388 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A648341BF9BF0300617388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57A648351BF9BF0300617388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57A648371BF9BF0300617388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lpsil-dam.TP3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A648381BF9BF0300617388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lpsil-dam.TP3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A648241BF9BF0200617388 /* Build configuration list for PBXProject "TP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A648341BF9BF0300617388 /* Debug */,
+				57A648351BF9BF0300617388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A648361BF9BF0300617388 /* Build configuration list for PBXNativeTarget "TP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A648371BF9BF0300617388 /* Debug */,
+				57A648381BF9BF0300617388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A648211BF9BF0200617388 /* Project object */;
+}
