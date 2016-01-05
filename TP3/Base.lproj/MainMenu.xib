@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9060"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -139,27 +139,21 @@
                 <subviews>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8d1-fv-Ivc" customClass="CarteView" customModule="TP3" customModuleProvider="target">
                         <rect key="frame" x="20" y="172" width="196" height="263"/>
-                        <animations/>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2d9-V3-9nC" customClass="CarteView" customModule="TP3" customModuleProvider="target">
                         <rect key="frame" x="224" y="172" width="196" height="263"/>
-                        <animations/>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWr-bF-o2X" customClass="CarteView" customModule="TP3" customModuleProvider="target">
                         <rect key="frame" x="428" y="172" width="196" height="263"/>
-                        <animations/>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-nX-Ec5" customClass="CarteView" customModule="TP3" customModuleProvider="target">
                         <rect key="frame" x="632" y="172" width="196" height="263"/>
-                        <animations/>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYT-EB-p4A" customClass="CarteView" customModule="TP3" customModuleProvider="target">
                         <rect key="frame" x="836" y="172" width="196" height="263"/>
-                        <animations/>
                     </customView>
                     <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F1K-Lk-rhm">
                         <rect key="frame" x="498" y="84" width="57" height="25"/>
-                        <animations/>
                         <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="arrow_right" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" sound="Pop" inset="2" id="pEf-aX-lLP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -170,7 +164,6 @@
                     </button>
                     <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNp-Sr-6hy">
                         <rect key="frame" x="498" y="59" width="57" height="25"/>
-                        <animations/>
                         <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="arrow_left" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" sound="Pop" inset="2" id="r0r-Kq-LK4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -181,7 +174,6 @@
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8X-c8-2gX">
                         <rect key="frame" x="300" y="100" width="100" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Caisse (€)" id="dVn-kZ-pMF">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -190,7 +182,6 @@
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pkd-8E-IyQ">
                         <rect key="frame" x="302" y="71" width="96" height="22"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" id="IoN-sr-bfb">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -199,7 +190,6 @@
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6PS-li-kJB">
                         <rect key="frame" x="682" y="71" width="96" height="22"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" id="LZB-Ri-HnZ">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -208,18 +198,16 @@
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LpW-aa-mXY">
                         <rect key="frame" x="416" y="20" width="220" height="25"/>
-                        <animations/>
                         <buttonCell key="cell" type="roundTextured" title="Jouer" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="l2N-fO-k5B">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="jouer:" target="Voe-Tx-rLC" id="XMJ-lQ-AC6"/>
+                            <action selector="btnJouer1:" target="Voe-Tx-rLC" id="nr2-aJ-WMi"/>
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qHn-Us-Xgj">
                         <rect key="frame" x="680" y="100" width="100" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Pari (€)" id="D6V-G5-5bO">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -228,7 +216,6 @@
                     </textField>
                     <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6S-Ko-8SR">
                         <rect key="frame" x="399" y="136" width="254" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="lblErreur" id="b8F-tw-AmT">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -237,7 +224,6 @@
                     </textField>
                     <button hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgc-Nf-6Mc">
                         <rect key="frame" x="643" y="20" width="91" height="25"/>
-                        <animations/>
                         <buttonCell key="cell" type="roundTextured" title="Rejouer" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1C0-81-oaZ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -248,7 +234,6 @@
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JbT-k7-oFT">
                         <rect key="frame" x="745" y="24" width="260" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" id="DlR-Ks-1h2">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -257,7 +242,6 @@
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGi-Vz-aY8">
                         <rect key="frame" x="18" y="66" width="4" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="ymK-7B-sKO">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -266,7 +250,6 @@
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-a6-BGv">
                         <rect key="frame" x="14" y="136" width="248" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Nombre de parties jouées : 0" id="pWE-g3-Imd">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -275,7 +258,6 @@
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Gc-13-3IC">
                         <rect key="frame" x="1009" y="17" width="25" height="25"/>
-                        <animations/>
                         <buttonCell key="cell" type="help" bezelStyle="helpButton" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bf1-2Z-gQ6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -286,7 +268,6 @@
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogx-uQ-X4r">
                         <rect key="frame" x="18" y="24" width="289" height="17"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Début du jeu" id="oLe-y8-Rs1">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -294,7 +275,6 @@
                         </textFieldCell>
                     </textField>
                 </subviews>
-                <animations/>
             </view>
             <point key="canvasLocation" x="1255" y="538"/>
         </window>
@@ -309,11 +289,9 @@
                 <subviews>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uhX-0a-ZHG">
                         <rect key="frame" x="20" y="20" width="615" height="321"/>
-                        <animations/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="tableau_gain" id="vDV-co-Ohd"/>
                     </imageView>
                 </subviews>
-                <animations/>
             </view>
             <point key="canvasLocation" x="1066.5" y="1129.5"/>
         </window>

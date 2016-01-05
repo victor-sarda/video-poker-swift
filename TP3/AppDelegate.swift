@@ -89,6 +89,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
     }
     
+    
     // Bouton de triche (Choix des cartes)
     @IBAction func btnTriche(sender: NSButton) {
     
